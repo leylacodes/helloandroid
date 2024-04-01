@@ -160,3 +160,23 @@ fun GreetingPreview() {
         Greeting("Leyla")
     }
 }
+
+@Preview(
+    name = "Mood Slider",
+    group = "Sliders",
+    showBackground = true,
+)
+@Composable
+fun MoodSliderPreview() {
+    MoodSlider()
+}
+
+@Preview(
+    name = "Energy Slider",
+    group = "Sliders",
+    showBackground = true,
+)
+@Composable
+fun EnergySliderPreview() {
+    EnergySlider()
+}
